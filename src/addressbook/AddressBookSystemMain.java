@@ -18,8 +18,8 @@ public class AddressBookSystemMain {
             AddressBookSystemMain obj = new AddressBookSystemMain();
 
             //Calling Encapsulated Class object
-            ContactPerson addressBook = new ContactPerson("Soumya","Singh","Jobra","Cuttack",
-                    "Odisha","753007","8908641811","soumyars675@gmail.com");
+            ContactPerson addressBook = new ContactPerson("Rakesh","Reddy","Karimnagar","Hyderabad",
+                    "TG","505122","9177376524","byreddyrakesh41@gmail.com");
 
             System.out.print("\n"+addressBook.toString());
         }
